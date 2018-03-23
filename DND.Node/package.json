@@ -1,0 +1,29 @@
+{
+  "name": "dnd.node",
+  "version": "0.1.0",
+  "description": "DND Node",
+  "main": "server.js",
+  "author": {
+    "name": "David Ikin",
+    "email": "davidikin45@gmail.com"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "express-sessions": "^1.0.6",
+    "mongodb": "^2.2.30",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.0.3",
+    "tedious": "^2.0.0",
+    "underscore": "^1.8.3",
+    "vash": "^0.12.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-nodemon": "^0.4.2"
+  }
+}

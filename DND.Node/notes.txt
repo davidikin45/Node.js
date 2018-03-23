@@ -1,0 +1,64 @@
+﻿npm install underscore --save
+npm install express --save
+http://passportjs.org/
+npm install passport --save
+npm install passport-local --save
+npm install express-session --save
+npm install body-parser --save
+npm install cookie-parser --save
+npm install vash --save
+
+npm install bower -g
+create .bowerrc file and save as with encoding Windows codepage 1252
+create bower.json file for dependencies
+
+bower install underscore --save
+bower install bootstrap --save
+
+npm install grunt-cli -g
+npm install grunt --save-dev
+npm install grunt-nodemon --save-dev
+
+create gruntfile.js
+
+ npm install tedious --save
+
+ mongod -dbpath ./data --rest
+
+ npm install mongodb --save
+
+ npm install connect-flash --save
+
+ bower install angular-bootstrap --save
+
+SOCKET.IO (Signal R) - Abstraction
+ Web Socket is full duplex communication over TCP. 
+ Real time bi-directional between browser and server.
+ HTTP is connectionless. 
+ Web sockets is not. 
+ Handshake on port 80.
+ Server/Client
+
+ npm install socket.io --save
+ bower install socket.io-client --save
+
+ -- join room (client) --
+  socket.join(name)
+
+ -- sending --
+ send to single client or server = socket.emit
+ broadcast = socket.broadcast.emit
+ broadcast to room = socket.broadcast.to(room).emit
+
+ -- receiving --
+socket.on("newNote", function (data) {
+               
+});
+
+
+
+
+
+
+
+
